@@ -1,6 +1,6 @@
 # Your TextAnalyzer model code will go here.
 class TextAnalyzer
-att_reader :text
+attr_reader :text
 
 def initialize(text)
     @text = text.downcase
